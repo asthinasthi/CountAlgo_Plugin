@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.6.0_51-b11-457-11M4509 (Apple Inc.)
+Bundle-ManifestVersion: 2
+Bundle-Name: Example Tab Plugin
+Bundle-SymbolicName: org.protege.editor.owl.examples.tab;singleton:=tr
+ ue
+Bundle-Category: protege
+Bundle-ContactAddress: p4-feedback@lists.stanford.edu
+Bundle-DocURL: http://protege.stanford.edu
+Bundle-Description: A sample tab for learning how to write a plugin
+Bundle-Vendor: Protege Development Team 
+Bundle-ClassPath: .,lib/CreateTable.jar,lib/examplelib.jar,lib/org.sem
+ anticweb.HermiT.jar
+Import-Package: org.osgi.framework,org.apache.log4j,javax.swing,javax.
+ swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.f
+ ilechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.m
+ etal,javax.swing.plaf.multi,javax.swing.plaf.synth,javax.swing.table,
+ javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,j
+ avax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.xml.parse
+ rs
+Bundle-Version: 4.0.9
+Require-Bundle: org.eclipse.equinox.registry,org.eclipse.equinox.commo
+ n,org.protege.editor.core.application;bundle-version="4.1.0",org.prot
+ ege.editor.owl;bundle-version="4.1.0",org.semanticweb.owl.owlapi;bund
+ le-version="3.0.0"
+Built-By: Ani
+Build-Date: 03/22/2014 11:26 PM
+
