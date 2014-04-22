@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/Users/Ani/Documents/YaoLabs_SourceCode/CountAlgo_Plugin/build/lib/log4j.jar"/>
-	<classpathentry kind="lib" path="/Users/Ani/Documents/YaoLabs_SourceCode/CountAlgo_Plugin/build/org.protege.editor.owl.examples.tab.jar"/>
-	<classpathentry kind="lib" path="/Users/Ani/Documents/YaoLabs_SourceCode/CountAlgo_Plugin/lib/examplelib.jar"/>
-	<classpathentry kind="lib" path="/Users/Ani/Documents/YaoLabs_SourceCode/CountAlgo_Plugin/lib/org.semanticweb.HermiT.jar"/>
-	<classpathentry kind="lib" path="/Users/Ani/Documents/YaoLabs_SourceCode/CountAlgo_Plugin/org.protege.editor.owl.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="/Users/Ani/Documents/YaoLabs_SourceCode/CountAlgo_Plugin/build/classes/lib/CreateTable.jar"/>
+	<classpathentry kind="lib" path="HermiT.jar"/>
+	<classpathentry kind="lib" path="org.protege.editor.owl.jar"/>
+	<classpathentry kind="lib" path="plugin.xml"/>
+	<classpathentry kind="lib" path="protege-editor-core-application-4.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="protege-editor-core-application-4.1.0-sources.zip"/>
+	<classpathentry kind="lib" path="protege-editor-owl-4.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/examplelib.jar"/>
+	<classpathentry kind="lib" path="lib/org.semanticweb.HermiT.jar"/>
+	<classpathentry kind="lib" path="lib/createJar.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
