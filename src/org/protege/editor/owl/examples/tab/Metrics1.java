@@ -23,7 +23,7 @@ public class Metrics1 extends JPanel {
 
 private JLabel textComponent = new JLabel();
  private JButton refreshButton = new JButton("RunOWLFile");
- private JButton inferenceButton = new JButton("RunOWLFileAgain");
+ private JButton inferenceButton = new JButton("RunInferences");
 		    private ActionListener refreshAction = new ActionListener() {
 
 			        public void actionPerformed(ActionEvent e) {
